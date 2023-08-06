@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background;
+}
+
+@layer components {
+  .card{
+    @apply p-3 rounded-md bg-secondary shadow-md h-full;
+  }
+}
