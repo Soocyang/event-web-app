@@ -11,9 +11,14 @@ export default defineNuxtConfig({
 					rel: 'stylesheet',
 					href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
 				},
+				{
+					rel: 'icon',
+					type: 'image/x-icon',
+					href: '/event-web-app/favicon.ico',
+				},
 			],
 		},
-		baseURL: '/event-web-app/', // baseURL: '/<repository>/'
+		baseURL: '/event-web-app/', // baseURL: '/<repository>/',
 	},
 	runtimeConfig: {
 		tmApiKey: process.env.TM_API_KEY,
