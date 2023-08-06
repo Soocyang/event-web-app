@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	-webkit-tap-highlight-color: transparent;
+}
+
 body {
-  @apply bg-background;
+	@apply bg-background;
+}
+
+.router-link-exact-active {
+  @apply text-primary;
 }
 
 @layer components {
-  .card{
-    @apply p-3 rounded-md bg-secondary shadow-md h-full;
-  }
+	.card {
+		@apply p-3 rounded-md bg-secondary shadow-md h-full;
+	}
 }
