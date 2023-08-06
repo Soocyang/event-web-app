@@ -1,0 +1,1 @@
+import{_ as a}from"./nuxt-link.7792ccc3.js";import{_ as n,c as r,a as e,b as s,w as c,r as l,o as _,d}from"./entry.b414a466.js";const u={};function f(t,i){const o=a;return _(),r("div",null,[e("header",null,[e("nav",null,[s(o,{to:"/"},{default:c(()=>[d("Logo")]),_:1})])]),e("div",null,[l(t.$slots,"default")])])}const x=n(u,[["render",f]]);export{x as default};
