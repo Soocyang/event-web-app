@@ -1,13 +1,27 @@
 <template>
-  <div>
-    <h2 class="text-4xl p-2">Events</h2>
-    <p class="p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi temporibus consequuntur sint debitis nostrum
-      porro, beatae sit? Unde consectetur quas nulla minima harum, odit voluptatibus placeat eum similique autem quae!</p>
+  <div class="container w-full p-3">
+    <h1 class="text-xl">Events</h1>
+    <div v-for="event in events" :key="event.id">
+      <nuxt-link :to="`/events/${event.id}`">
+        <div class="card p-3">
+          <span>{{ event.name }}</span>
+          <img class="my-3" :src="event.images[0]?.url" alt="event image" />
+          <h3>{{ event.dates.start.dateTime }}</h3>
+        </div>
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
 <script setup>
+const { data: events } = await useFetch('/api/events', {
+  query: {
+    size: 30,
+  }
+})
+
+
+
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

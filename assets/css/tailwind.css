@@ -16,6 +16,6 @@ body {
 
 @layer components {
 	.card {
-		@apply p-3 rounded-md bg-secondary shadow-md h-full;
+		@apply p-3 rounded-md bg-primary shadow-md h-full my-4 text-white;
 	}
 }

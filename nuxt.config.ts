@@ -22,6 +22,8 @@ export default defineNuxtConfig({
 	},
 	runtimeConfig: {
 		tmApiKey: process.env.TM_API_KEY,
+		tmBaseUrl: process.env.TM_BASE_URL,
+		isDebug: process.env.IS_DEBUG,
 		public: {},
 	},
 })
