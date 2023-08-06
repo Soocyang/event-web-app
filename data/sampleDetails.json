@@ -1,0 +1,492 @@
+{
+  "name": "Houston Astros vs. New York Yankees",
+  "type": "event",
+  "id": "Z7r9jZ1AdpZr7",
+  "test": false,
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AdpZr7",
+  "locale": "en-us",
+  "images": [
+    {
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_TABLET_LANDSCAPE_3_2.jpg",
+      "width": 1024,
+      "height": 683,
+      "fallback": false
+    },
+    {
+      "ratio": "4_3",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_CUSTOM.jpg",
+      "width": 305,
+      "height": 225,
+      "fallback": false
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_TABLET_LANDSCAPE_16_9.jpg",
+      "width": 1024,
+      "height": 576,
+      "fallback": false
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_RETINA_LANDSCAPE_16_9.jpg",
+      "width": 1136,
+      "height": 639,
+      "fallback": false
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_RETINA_PORTRAIT_16_9.jpg",
+      "width": 640,
+      "height": 360,
+      "fallback": false
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_RECOMENDATION_16_9.jpg",
+      "width": 100,
+      "height": 56,
+      "fallback": false
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_EVENT_DETAIL_PAGE_16_9.jpg",
+      "width": 205,
+      "height": 115,
+      "fallback": false
+    },
+    {
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_ARTIST_PAGE_3_2.jpg",
+      "width": 305,
+      "height": 203,
+      "fallback": false
+    },
+    {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "width": 2048,
+      "height": 1152,
+      "fallback": false
+    },
+    {
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_RETINA_PORTRAIT_3_2.jpg",
+      "width": 640,
+      "height": 427,
+      "fallback": false
+    }
+  ],
+  "sales": {
+    "public": {
+      "startDateTime": "1900-01-01T18:00:00Z",
+      "startTBD": false,
+      "startTBA": false,
+      "endDateTime": "2023-09-02T23:10:00Z"
+    }
+  },
+  "dates": {
+    "start": {
+      "localDate": "2023-09-02",
+      "localTime": "18:10:00",
+      "dateTime": "2023-09-02T23:10:00Z",
+      "dateTBD": false,
+      "dateTBA": false,
+      "timeTBA": false,
+      "noSpecificTime": false
+    },
+    "status": {
+      "code": "onsale"
+    },
+    "spanMultipleDays": false
+  },
+  "classifications": [
+    {
+      "primary": true,
+      "segment": {
+        "id": "KZFzniwnSyZfZ7v7nE",
+        "name": "Sports"
+      },
+      "genre": {
+        "id": "KnvZfZ7vAdv",
+        "name": "Baseball"
+      },
+      "subGenre": {
+        "id": "KZazBEonSMnZfZ7vF1n",
+        "name": "MLB"
+      },
+      "family": false
+    }
+  ],
+  "outlets": [
+    {
+      "url": "https://www.mlb.com/astros",
+      "type": "venueBoxOffice"
+    },
+    {
+      "url": "https://www.ticketmaster.com/houston-astros-vs-new-york-yankees-houston-texas-09-02-2023/event/Zu0FM1R0e5tg0MF",
+      "type": "tmMarketPlace"
+    }
+  ],
+  "seatmap": {
+    "staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/1/VenueMaps/515-358-3-1-MinuteMaidParkHoustonAstros.png"
+  },
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/events/Z7r9jZ1AdpZr7?locale=en-us"
+    },
+    "attractions": [
+      {
+        "href": "/discovery/v2/attractions/K8vZ91718zV?locale=en-us"
+      },
+      {
+        "href": "/discovery/v2/attractions/K8vZ9171okV?locale=en-us"
+      }
+    ],
+    "venues": [
+      {
+        "href": "/discovery/v2/venues/Z6r9jZkeke?locale=en-us"
+      }
+    ]
+  },
+  "_embedded": {
+    "venues": [
+      {
+        "name": "Minute Maid Park",
+        "type": "venue",
+        "id": "Z6r9jZkeke",
+        "test": false,
+        "locale": "en-us",
+        "postalCode": "77002",
+        "timezone": "America/Chicago",
+        "city": {
+          "name": "Houston"
+        },
+        "state": {
+          "name": "Texas",
+          "stateCode": "TX"
+        },
+        "country": {
+          "name": "United States Of America",
+          "countryCode": "US"
+        },
+        "address": {
+          "line1": "501 Crawford Street"
+        },
+        "location": {
+          "longitude": "-95.362999",
+          "latitude": "29.759399"
+        },
+        "dmas": [
+          {
+            "id": 300
+          }
+        ],
+        "upcomingEvents": {
+          "tmr": 25,
+          "ticketmaster": 4,
+          "_total": 29,
+          "_filtered": 0
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/venues/Z6r9jZkeke?locale=en-us"
+          }
+        }
+      }
+    ],
+    "attractions": [
+      {
+        "name": "Houston Astros",
+        "type": "attraction",
+        "id": "K8vZ91718zV",
+        "test": false,
+        "url": "https://www.ticketmaster.com/houston-astros-tickets/artist/805948",
+        "locale": "en-us",
+        "externalLinks": {
+          "twitter": [
+            {
+              "url": "https://twitter.com/astros"
+            }
+          ],
+          "wiki": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Houston_Astros"
+            }
+          ],
+          "facebook": [
+            {
+              "url": "https://www.facebook.com/Astros"
+            }
+          ],
+          "instagram": [
+            {
+              "url": "https://www.instagram.com/astrosbaseball"
+            }
+          ],
+          "homepage": [
+            {
+              "url": "https://www.mlb.com/astros"
+            }
+          ]
+        },
+        "aliases": [
+          "World Series"
+        ],
+        "images": [
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/645/f53abc7c-c1d5-4e8e-9513-0b407888c645_1343821_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          }
+        ],
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nE",
+              "name": "Sports"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAdv",
+              "name": "Baseball"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vF1n",
+              "name": "MLB"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7l1",
+              "name": "Group"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7vA7d",
+              "name": "Team"
+            },
+            "family": false
+          }
+        ],
+        "upcomingEvents": {
+          "tmr": 43,
+          "ticketmaster": 27,
+          "_total": 70,
+          "_filtered": 0
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/attractions/K8vZ91718zV?locale=en-us"
+          }
+        }
+      },
+      {
+        "name": "New York Yankees",
+        "type": "attraction",
+        "id": "K8vZ9171okV",
+        "test": false,
+        "url": "https://www.ticketmaster.com/new-york-yankees-tickets/artist/805992",
+        "locale": "en-us",
+        "externalLinks": {
+          "twitter": [
+            {
+              "url": "https://twitter.com/Yankees"
+            }
+          ],
+          "wiki": [
+            {
+              "url": "https://en.wikipedia.org/wiki/New_York_Yankees"
+            }
+          ],
+          "facebook": [
+            {
+              "url": "https://www.facebook.com/Yankees"
+            }
+          ],
+          "instagram": [
+            {
+              "url": "https://www.instagram.com/yankees"
+            }
+          ],
+          "homepage": [
+            {
+              "url": "https://www.mlb.com/yankees"
+            }
+          ]
+        },
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/4af/0f77afd9-acc2-4347-aa81-66aa7004f4af_1343881_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          }
+        ],
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nE",
+              "name": "Sports"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAdv",
+              "name": "Baseball"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vF1n",
+              "name": "MLB"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7l1",
+              "name": "Group"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7vA7d",
+              "name": "Team"
+            },
+            "family": false
+          }
+        ],
+        "upcomingEvents": {
+          "tmr": 23,
+          "ticketmaster": 94,
+          "_total": 117,
+          "_filtered": 0
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/attractions/K8vZ9171okV?locale=en-us"
+          }
+        }
+      }
+    ]
+  }
+}
