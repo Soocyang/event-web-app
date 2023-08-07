@@ -5,7 +5,7 @@
         <nuxt-link to="/" class="flex items-center justify-center">
           <img src="/favicon.ico" alt="logo icon" class="sm:w-7 w-6 mx-1">
           <span
-            class="font-semibold bg-gradient-to-r from-primary to-accent inline-block text-transparent bg-clip-text">Gimon</span>
+            class="font-semibold text-gradient-primary">Gimon</span>
         </nuxt-link>
       </nav>
     </header>

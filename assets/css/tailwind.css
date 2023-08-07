@@ -7,7 +7,7 @@
 }
 
 body {
-	@apply bg-background;
+	@apply bg-white;
 }
 
 .router-link-exact-active {
@@ -17,5 +17,9 @@ body {
 @layer components {
 	.card {
 		@apply p-3 rounded-md bg-primary shadow-md h-full my-4 text-white;
+	}
+
+	.text-gradient-primary {
+		@apply bg-gradient-to-r from-primary to-accent inline-block text-transparent bg-clip-text
 	}
 }
