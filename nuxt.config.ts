@@ -18,7 +18,6 @@ export default defineNuxtConfig({
 				},
 			],
 		},
-		baseURL: '/event-web-app/', // baseURL: '/<repository>/',
 	},
 	runtimeConfig: {
 		tmApiKey: process.env.TM_API_KEY,
