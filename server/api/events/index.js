@@ -13,9 +13,9 @@ export default defineEventHandler(async (event) => {
 			apikey: tmApiKey,
 			size,
 			type,
-			classificationName: ['music'],
+			classificationName: [],
 			preferredCountry: ['sg'],
-			sort: 'random'
+			sort: 'relevance,desc'
 		},
 	})
 
