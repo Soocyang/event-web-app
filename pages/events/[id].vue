@@ -30,6 +30,11 @@
         <div>{{ priceInfo.type }}</div>
         <div>{{ priceInfo.currency }} {{ priceInfo.min }} ~ {{ priceInfo.max }}</div>
       </div>
+      <!-- Button -->
+      <div class="btn-group flex flex-row justify-between my-4">
+        <button class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded w-full mr-1">Add to Cart</button>
+        <button class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded w-full ml-1">Favorite</button>
+      </div>
     </div>
   </div>
 </template>
