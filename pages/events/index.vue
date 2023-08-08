@@ -1,5 +1,5 @@
 <template>
-  <div class="container grid place-content-center px-3 pt-5 pb-20">
+  <div class="grid place-content-center px-3 pt-5 pb-20">
     <h1 class="px-3 text-2xl font-bold text-gradient-primary">Upcoming Events</h1>
     <div v-for="event in eventListing" :key="event.id">
       <nuxt-link :to="`/events/${event.id}`">
