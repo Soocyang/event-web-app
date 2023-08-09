@@ -54,7 +54,10 @@ const bannerImage = eventDetails.value.images.find((img) => img.width >= 450)
 
 function handleAddFavorite() {
   alert(`Added to favorite: ${eventDetails.value}`)
-  addFavorite(eventDetails.value)
+  addFavorite({
+    ...eventDetails.value,
+    thumbnail: bannerImage
+  })
 }
 
 function handleAddToCart() {

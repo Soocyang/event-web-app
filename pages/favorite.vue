@@ -1,13 +1,14 @@
 <template>
-  <div>
-    <h2 class="text-4xl p-2">Favorite</h2>
-    <p class="p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi temporibus consequuntur sint debitis nostrum
-      porro, beatae sit? Unde consectetur quas nulla minima harum, odit voluptatibus placeat eum similique autem quae!</p>
+  <div class="flex flex-col px-3 pt-5 pb-20">
+    <h1 class="px-3 text-2xl font-bold text-gradient-primary">My Favorites</h1>
+    <EventListing v-if="eventList.length > 0" :eventListing="eventList" :editable="true" />
+    <h3 v-else class="py-5 grid place-content-center">Add some event here!</h3>
   </div>
 </template>
 
 <script setup>
+const { favorites } = useFavorite()
+const eventList = favorites.value
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

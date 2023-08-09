@@ -3,7 +3,7 @@ export const useFavorite = () => {
 
 	const addFavorite = (payload) => {
 		const newList = [...favorites.value, payload]
-		favorites.value = [...new Set(newList)]
+		favorites.value = newList
 	}
 
   const removeFavorite = (id) => {
@@ -14,5 +14,6 @@ export const useFavorite = () => {
 	return {
 		favorites,
 		addFavorite,
+		removeFavorite,
 	}
 }
