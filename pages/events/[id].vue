@@ -32,18 +32,34 @@
       </div>
       <!-- Button -->
       <div class="btn-group flex flex-row justify-between my-4">
-        <button class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded w-full mr-1">Add to Cart</button>
-        <button class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded w-full ml-1">Favorite</button>
+        <button @click="handleAddToCart"
+          class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded w-full mr-1">
+          Add to Cart
+        </button>
+        <button @click="handleAddFavorite"
+          class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded w-full ml-1">
+          Favorite
+        </button>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+const { addFavorite } = useFavorite()
 const { id } = useRoute().params
 const { data: eventDetails } = await useFetch(`/api/events/${id}`)
 
 const bannerImage = eventDetails.value.images.find((img) => img.width >= 450)
+
+function handleAddFavorite() {
+  alert(`Added to favorite: ${eventDetails.value}`)
+  addFavorite(eventDetails.value)
+}
+
+function handleAddToCart() {
+  alert(`WIP: Added to cart: ${eventDetails.value.name}`)
+}
 
 </script>
 
