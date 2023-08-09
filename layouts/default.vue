@@ -1,4 +1,5 @@
 <template>
+  <NuxtLoadingIndicator color="#591ae0" />
   <header class="sm:sticky top-0 z-10 w-full backdrop-blur shadow-lg bg-white/95">
     <nav class="h-12 sm:h-16 flex items-center justify-center sm:text-2xl text-xl">
       <nuxt-link to="/" class="flex items-center justify-center">
