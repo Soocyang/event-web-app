@@ -1,12 +1,25 @@
 <template>
-  <div>
-    <h2 class="text-4xl p-2">Home</h2>
-    <p class="p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi temporibus consequuntur sint debitis nostrum
-      porro, beatae sit? Unde consectetur quas nulla minima harum, odit voluptatibus placeat eum similique autem quae!</p>
+  <div class="max-w-5xl m-auto px-3 pt-5 pb-20">
+    <h1 class="px-3 text-2xl font-bold text-gradient-primary">Home</h1>
+    <EventListing :eventListing="eventListing" :editable="false" />
   </div>
 </template>
 
 <script setup>
+const { data: events } = await useFetch('/api/events', {
+  query: {
+    size: 30,
+    classificationName: ['musical'],
+  }
+})
+
+const eventListing = events.value.map((eventDetails) => {
+  return {
+    ...eventDetails,
+    thumbnail: eventDetails.images.find((img) => img.width >= 450)
+  }
+})
+
 </script>
 
 <style scoped>

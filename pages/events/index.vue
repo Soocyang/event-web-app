@@ -9,6 +9,8 @@
 const { data: events } = await useFetch('/api/events', {
   query: {
     size: 30,
+    classificationName: ['sport'],
+    sort: 'random'
   }
 })
 
@@ -18,8 +20,6 @@ const eventListing = events.value.map((eventDetails) => {
     thumbnail: eventDetails.images.find((img) => img.width >= 450)
   }
 })
-
-
 
 </script>
 
