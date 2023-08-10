@@ -2,6 +2,8 @@
 
 Built with Nuxt3 & tailwindcss
 
+Integrated API with TicketMaster
+
 ## Setup
 
 Make sure to install the dependencies:
