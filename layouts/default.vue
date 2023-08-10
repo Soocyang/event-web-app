@@ -32,13 +32,13 @@
           <span>Home</span>
         </nuxt-link>
       </li>
-      <li class="w-1/2">
+      <li class="w-1/3">
         <nuxt-link to="/events" class="flex flex-col items-center py-1 active:text-accent">
           <i class="material-icons">local_activity</i>
           <span>Events</span>
         </nuxt-link>
       </li>
-      <li class="w-1/2">
+      <li class="w-1/3">
         <nuxt-link to="/favorite" class="flex flex-col items-center py-1 active:text-accent">
           <i class="material-icons">favorite</i>
           <span>Favorite</span>
