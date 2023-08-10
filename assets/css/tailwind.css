@@ -14,6 +14,11 @@ body {
   @apply text-primary;
 }
 
+.router-link-exact-active.variant-h {
+  @apply text-primary underline;
+}
+
+
 @layer components {
 	.card {
 		@apply p-3 rounded-md bg-primary shadow-md h-full my-4 text-white;

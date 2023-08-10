@@ -1,11 +1,19 @@
 <template>
   <NuxtLoadingIndicator color="#591ae0" />
   <header class="sm:sticky top-0 z-10 w-full backdrop-blur shadow-lg bg-white/95">
-    <nav class="h-12 sm:h-16 flex items-center justify-center sm:text-2xl text-xl">
+    <nav class="max-w-5xl m-auto px-7 h-12 sm:h-16 flex items-center justify-center sm:justify-between">
       <nuxt-link to="/" class="flex items-center justify-center">
         <img src="/favicon.ico" alt="logo icon" class="sm:w-7 w-6 mx-1">
-        <span class="font-semibold text-gradient-primary">Gimon</span>
+        <span class="font-semibold text-gradient-primary sm:text-2xl text-xl">Gimon</span>
       </nuxt-link>
+      <div class="hidden sm:block">
+        <nuxt-link to="/events" class="variant-h px-6 font-semibold text-primary/75 active:text-accent">
+          <span>Events</span>
+        </nuxt-link>
+        <nuxt-link to="/favorite" class="variant-h px-6 font-semibold text-primary/75 active:text-accent">
+          <span>Favorite</span>
+        </nuxt-link>
+      </div>
     </nav>
   </header>
   <div class="pb-12">
