@@ -26,12 +26,12 @@
       sm:hidden
       ">
     <ul class="w-full flex justify-evenly font-semibold text-xs">
-      <!-- <li class="w-1/3">
-          <nuxt-link to="/" class="flex flex-col items-center py-1 active:text-accent">
-            <i class="material-icons">festival</i>
-            <span>Home</span>
-          </nuxt-link>
-        </li> -->
+      <li class="w-1/3">
+        <nuxt-link to="/" class="flex flex-col items-center py-1 active:text-accent">
+          <i class="material-icons">festival</i>
+          <span>Home</span>
+        </nuxt-link>
+      </li>
       <li class="w-1/2">
         <nuxt-link to="/events" class="flex flex-col items-center py-1 active:text-accent">
           <i class="material-icons">local_activity</i>
