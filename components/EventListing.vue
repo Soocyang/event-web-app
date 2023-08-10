@@ -1,20 +1,22 @@
 <template>
   <div class="grid sm:grid-cols-3 md:gap-1 sm:gap-5">
     <div v-for="event in eventListing" :key="event.id">
-      <nuxt-link :to="`/events/${event.id}`">
-        <div class="event-card sm:max-w-[350px] px-3 py-1">
-          <img class="my-3 aspect-[16/9]" :src="event.thumbnail.url" alt="event image" />
-          <div class="text-xl font-bold text-gradient-primary">{{ event.name }}</div>
-          <div class="text-lg font-semibold text-gray-800">
-            <NuxtTime :datetime="event.dates.start.dateTime" date-style="long" time-style="short" />
+      <div class="h-full flex flex-col">
+        <nuxt-link :to="`/events/${event.id}`">
+          <div class="event-card sm:max-w-[350px] px-3 py-1">
+            <img class="my-3 aspect-[16/9]" :src="event.thumbnail.url" alt="event image" />
+            <div class="text-xl font-bold text-gradient-primary">{{ event.name }}</div>
+            <div class="text-lg font-semibold text-gray-800">
+              <NuxtTime :datetime="event.dates.start.dateTime" date-style="long" time-style="short" />
+            </div>
           </div>
+        </nuxt-link>
+        <div v-if="editable" class="btn-group mt-auto flex flex-row justify-between px-3 my-2">
+          <button @click="removeFavorite(event.id)"
+            class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded w-full mr-1">
+            Remove
+          </button>
         </div>
-      </nuxt-link>
-      <div v-if="editable" class="btn-group flex flex-row justify-between px-3 my-2">
-        <button @click="removeFavorite(event.id)"
-          class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded w-full mr-1">
-          Remove
-        </button>
       </div>
     </div>
   </div>
