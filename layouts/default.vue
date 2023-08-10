@@ -46,6 +46,13 @@
       </li>
     </ul>
   </nav>
+  <footer class="m-auto w-full fixed bottom-0 bg-white/95">
+    <hr class="border-secondary">
+    <div class="max-w-5xl m-auto flex justify-between font-semibold text-sm text-primary">
+      <div>This website is for demonstration purpose only.</div>
+      <div>ciayang.dev @ {{ new Date().getFullYear() }}</div>
+    </div>
+  </footer>
 </template>
 
 <style scoped></style>
