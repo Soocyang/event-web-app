@@ -1,7 +1,7 @@
 <template>
-  <div class="container w-full p-3">
+  <div class="max-w-5xl m-auto px-3 pt-5 pb-20">
     <div class=" px-3 pt-1 pb-5">
-      <img class="my-3" :src="bannerImage.url" alt="event image" />
+      <img class="my-3 md:aspect-[28/9]" :src="bannerImage.url" alt="event image" />
       <h2 class="text-2xl font-bold text-gradient-primary">{{ eventDetails.name }}</h2>
       <div class="text-lg font-semibold text-gray-800">
         <NuxtTime :datetime="eventDetails.dates.start.dateTime" date-style="long" time-style="short" />
@@ -66,4 +66,10 @@ function handleAddToCart() {
 
 </script>
 
-<style scoped></style>
+<style scoped>
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
