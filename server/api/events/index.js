@@ -4,7 +4,7 @@ export default defineEventHandler(async (event) => {
 	const { tmBaseUrl, tmApiKey, isDebug } = useRuntimeConfig()
 	if (isDebug === 'true') return mockEvents
 
-	const { size = '30', classificationName, sort = 'relevance,desc' } = event.context.params
+	const { size = '30', sort = 'relevance,desc', page } = getQuery(event);
 
 	const {
 		_embedded: { events },
@@ -12,9 +12,9 @@ export default defineEventHandler(async (event) => {
 		query: {
 			apikey: tmApiKey,
 			size,
-			classificationName,
 			preferredCountry: ['SG', 'MY'],
 			sort,
+			page
 		},
 	})
 

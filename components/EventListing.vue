@@ -1,4 +1,13 @@
 <template>
+  <div v-show="pagination" class="my-5 flex justify-end">
+    <button @click="handlePagePrev()" class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded mr-1"
+        :class="currentPage === 0 ? 'bg-secondary hover:bg-secondary' : ''">
+      Prev
+    </button>
+    <button @click="handlePageNext()" class="bg-accent hover:bg-primary text-white font-bold py-2 px-4 rounded mr-1">
+      Next
+    </button>
+  </div>
   <div class="grid sm:grid-cols-3 md:gap-1 sm:gap-5">
     <div v-for="event in eventListing" :key="event.id">
       <div class="h-full flex flex-col">
@@ -23,9 +32,15 @@
 </template>
 
 <script setup>
-const { eventListing, editable } = defineProps(['eventListing', 'editable'])
+const { eventListing, pagination, editable, currentPage, handlePageNext, handlePagePrev } = defineProps([
+  'eventListing',
+  'pagination',
+  'editable',
+  'currentPage',
+  'handlePageNext',
+  'handlePagePrev'
+])
 const { removeFavorite } = useFavorite()
-
 
 </script>
 
